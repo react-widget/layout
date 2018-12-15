@@ -1,0 +1,26 @@
+
+ .rw-layout {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    
+    box-sizing: border-box;
+
+    * {
+        box-sizing: border-box;
+    }
+
+    &.rw-layout-has-sider {
+        flex-direction: row;
+    }
+}
+
+.rw-layout-sider,
+.rw-layout-header,
+.rw-layout-footer {
+    flex: 0 0 auto;
+}
+
+.rw-layout-content {
+    flex: auto; // 1 1 auto
+}
