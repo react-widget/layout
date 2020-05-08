@@ -1,0 +1,6 @@
+{
+	"name": "react-widget-layout/style",
+	"private": true,
+	"main": "../cjs/style/index.js",
+	"module": "../esm/style/index.js"
+}
